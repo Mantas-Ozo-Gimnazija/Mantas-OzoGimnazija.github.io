@@ -1,0 +1,72 @@
+body{
+  background-image: url("xmas.jpg");
+  background-size: cover;
+}
+.main{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(43, 133, 43);
+  font-size: 30px;
+  color: white;
+  font-family: arial;
+  box-shadow: 0 1px 16px 1px grey;
+  height: 70px;
+  width: 100%;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1200px;
+  margin-left: 550px;
+}
+.ball{    
+  height: 155px;
+  width: 148px;
+  background-size: cover;
+background-image: url("Single-Red-Christmas-Ball-PNG-Pic.png");
+margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: monospace;
+  font-size: 65px;
+  cursor: pointer;
+}
+
+.sveik{
+  width: 450px;
+  display: none;
+  background-color: white;
+  font-family: arial;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px 2px gold;
+  position: absolute;
+  height: 500px;
+  margin-right: 1350px;
+  z-index: 1;
+}
+.data{width: 100%;display: flex;justify-content: center;padding: 10px 0;    font-size: 28px;}
+.zodziai{padding: 10px 20px; font-size: 20px;}
+.sveikinimas{
+  display: flex;
+  flex-wrap: wrap;
+}
+.X{
+  color: red;
+  font-size: 35px;
+  padding: 5px;
+  cursor: pointer;
+}
